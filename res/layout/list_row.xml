@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    
+    <!-- Transport description -->
+    <TextView
+        android:id="@+id/transport_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:text="transport description"/>
+ 
+    <!-- Additional information -->
+    <TextView
+        android:id="@+id/additional_information"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/transport_description"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_marginTop="1dip"
+        android:text="additional information"/>
+ 
+    <!-- Seat ID -->
+    <TextView
+        android:id="@+id/seat_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/additional_information"
+        android:gravity="right"
+        android:text="seat id"
+        android:textColor="#040404"
+        android:textSize="10dip"
+        android:textStyle="bold" />
+ 
+</RelativeLayout>
