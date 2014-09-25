@@ -3,10 +3,7 @@ package com.test.tripmanager;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/*
- * Destination destinations to arrive to your destination
- * 
- */
+
 public class Destination implements Parcelable, Comparable<Destination> {
 	
 	/*
